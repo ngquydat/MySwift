@@ -455,6 +455,7 @@
 				403071F41A9EAE38009F4408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		403071F51A9EAE38009F4408 /* Build configuration list for PBXNativeTarget "SwiftTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +464,7 @@
 				403071F71A9EAE38009F4408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
