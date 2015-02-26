@@ -23,6 +23,20 @@
 			remoteGlobalIDString = 403071D21A9EAE38009F4408;
 			remoteInfo = SwiftTutorial;
 		};
+		4030722B1A9EAE89009F4408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403072261A9EAE88009F4408 /* LoginSystem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 403072011A9EAE88009F4408;
+			remoteInfo = LoginSystem;
+		};
+		4030722D1A9EAE89009F4408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403072261A9EAE88009F4408 /* LoginSystem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 403072161A9EAE88009F4408;
+			remoteInfo = LoginSystemTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +50,7 @@
 		403071E81A9EAE38009F4408 /* SwiftTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403071ED1A9EAE38009F4408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403071EE1A9EAE38009F4408 /* SwiftTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialTests.swift; sourceTree = "<group>"; };
+		403072261A9EAE88009F4408 /* LoginSystem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginSystem.xcodeproj; path = LoginSystem/LoginSystem.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,7 @@
 		403071CA1A9EAE38009F4408 = {
 			isa = PBXGroup;
 			children = (
+				403072261A9EAE88009F4408 /* LoginSystem.xcodeproj */,
 				403071D51A9EAE38009F4408 /* SwiftTutorial */,
 				403071EB1A9EAE38009F4408 /* SwiftTutorialTests */,
 				403071D41A9EAE38009F4408 /* Products */,
@@ -110,6 +126,15 @@
 				403071ED1A9EAE38009F4408 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403072271A9EAE88009F4408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4030722C1A9EAE89009F4408 /* LoginSystem.app */,
+				4030722E1A9EAE89009F4408 /* LoginSystemTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +204,12 @@
 			mainGroup = 403071CA1A9EAE38009F4408;
 			productRefGroup = 403071D41A9EAE38009F4408 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 403072271A9EAE88009F4408 /* Products */;
+					ProjectRef = 403072261A9EAE88009F4408 /* LoginSystem.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				403071D21A9EAE38009F4408 /* SwiftTutorial */,
@@ -186,6 +217,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4030722C1A9EAE89009F4408 /* LoginSystem.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LoginSystem.app;
+			remoteRef = 4030722B1A9EAE89009F4408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4030722E1A9EAE89009F4408 /* LoginSystemTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LoginSystemTests.xctest;
+			remoteRef = 4030722D1A9EAE89009F4408 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		403071D11A9EAE38009F4408 /* Resources */ = {
@@ -337,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
